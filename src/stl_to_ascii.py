@@ -1,3 +1,5 @@
+import os
+
 def stl_to_ascii(filename):
 	file_in = open(filename, 'r')
 	lines = file_in.readlines()
@@ -9,7 +11,17 @@ def stl_to_ascii(filename):
 			result.append(lines[k][7:])
 			result[i] = result[i].replace(" ", ",")
 			i += 1
-	file_out = open("custom" + filename, 'w')
+	
+        file_out = open(filename + ".custom", 'w')
 	file_out.writelines(result)
 	file_out.close()
 	return
+
+if __name__ == "__main__":
+    in_stl = raw_input("Enter the source stl file : ")
+    if not os.path.exists(in_stl):
+        print("Path for the stl file invalid")
+    else:
+        stl_to_ascii(in_stl)
+
+

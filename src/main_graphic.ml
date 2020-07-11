@@ -155,6 +155,6 @@ let depth_full_demo n filename =
 	done;;
 
 
-depth_full_demo 500 "../res/converted/ascsphere.stl";;
-rotation_y_demo 500 "../res/converted/asccat.stl";;
-anim2 150 "../res/converted/ascmonkey.stl";;
+depth_full_demo 500 "../res/converted/sphere.stl.custom";;
+rotation_y_demo 500 "../res/converted/cat.stl.custom";;
+anim2 150 "../res/converted/monkey.stl.custom";;
