@@ -154,6 +154,9 @@ let depth_full_demo n filename =
 		draw_shape_tri_depth !temp;
 	done;;
 
+(* N.B in all the demo functions therre is an argument called n
+ * it simply is the number of steps that you will take in order to complete the animation
+ * (the number  of subdivision of the angle of rotation) *)
 
 depth_full_demo 500 "../res/converted/sphere.stl.custom";;
 rotation_y_demo 500 "../res/converted/cat.stl.custom";;
