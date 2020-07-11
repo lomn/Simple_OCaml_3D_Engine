@@ -20,3 +20,5 @@ As you can see in the gif here, the engine is slow when relatively complex shape
 ## If you want to try it
 
 In order to test this small engine you will need a running version of OCaml with opam and the graphics library installed.
+
+If you want to convert your own stl files feel free to use the python script then to view them you can  modify the file main_graphic.ml look at the functions at the end, especially the demo ones.
