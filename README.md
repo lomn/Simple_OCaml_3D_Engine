@@ -11,6 +11,7 @@ In the source file there are two files that you can run on your machine directly
 
 By default you can run the "ocaml main_graphic.ml" to see a quick demo of the engine (same as gif below).
 
+![Engine demo](demo.gif)
 
 ## Limitations
 
